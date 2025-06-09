@@ -1,0 +1,17 @@
+.header-layout {
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  display: flex;
+  margin-right: 5%;
+}
+.roadmap-btn {
+  margin: 5%;
+  text-decoration: none !important;
+  color: black;
+}
+.tutorial-btn {
+  margin: 5%;
+}

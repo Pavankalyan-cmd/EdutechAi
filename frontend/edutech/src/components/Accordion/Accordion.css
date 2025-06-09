@@ -1,0 +1,36 @@
+.accordion-container {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.accordion-icon.open {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 15px;
+  background-color: #fff;
+}

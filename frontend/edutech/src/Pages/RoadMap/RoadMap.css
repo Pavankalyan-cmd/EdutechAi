@@ -1,0 +1,17 @@
+.prompt {
+  width: 50%;
+  margin: 1%;
+}
+.input-form {
+  width: 50%;
+  display: flex;
+  margin: 5% auto;
+}
+.roadmap {
+  border: 2px solid black;
+  height: 100vh;
+}
+.roadmap-component {
+  width: 80%;
+  height: 80vh;
+}

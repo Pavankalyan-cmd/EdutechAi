@@ -1,0 +1,159 @@
+.Signup {
+  width: 35%;
+  margin: 5% auto;
+  color: black;
+  padding: 2%;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff;
+}
+.int {
+  margin: 1%;
+  width: 90%;
+  border-radius: 25px !important;
+}
+.label {
+  margin: 1% 2%;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: black;
+  margin: 3%;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+
+.input-icon {
+  margin: 1%;
+  height: 1.3em;
+  width: 1.3em;
+  fill: black;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: black;
+}
+.button2 {
+  margin: 2% auto;
+  width: 98%;
+  /* color: #090909; */
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 25px;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .Signup {
+    width: 80%;
+    margin: 11% auto;
+    padding: 3%;
+  }
+  .field {
+    padding: 3%;
+    margin: 8% auto;
+    width: 90%;
+  }
+  .button2 {
+    padding: 0%;
+    width: 93%;
+    margin: 2% auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Signup {
+    width: 75%;
+    margin: 7% auto;
+    padding: 2%;
+  }
+  .field {
+    padding: 3%;
+    margin: 8% auto;
+    width: 90%;
+  }
+  .button2 {
+    padding: 0%;
+    width: 98%;
+    margin: 2% auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Signup {
+    width: 75%;
+    margin: 5% auto;
+    padding: 2%;
+  }
+  .field {
+    padding: 3%;
+    margin: 5% auto;
+    width: 90%;
+  }
+  .button2 {
+    padding: 0%;
+    width: 98%;
+    margin: 2% auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Signup {
+    width: 60%;
+    margin: 5% auto;
+    padding: 3%;
+  }
+  .field {
+    padding: 3%;
+    margin: 5% auto;
+    width: 90%;
+  }
+  .button2 {
+    padding: 1%;
+    width: 98%;
+    margin: 2% auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Signup {
+    width: 50%;
+    margin: 5% auto;
+    padding: 3%;
+  }
+  .field {
+    padding: 2%;
+    margin: 3% auto;
+    width: 90%;
+  }
+  .button2 {
+    padding: 1%;
+    width: 95%;
+    margin: 2% auto;
+  }
+}
