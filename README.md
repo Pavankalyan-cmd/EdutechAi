@@ -2,15 +2,15 @@
 
 ## Project Overview
 
-[cite_start]EduStack AI is an intelligent bot designed to create personalized learning roadmaps for students based on their selected programming path (Python Full Stack, Java Full Stack, or Python with AI). This project focuses on two key features: generating dynamic learning roadmaps using a Large Language Model (LLM) and integrating relevant learning resources, specifically fetching YouTube videos. [cite_start]The bot will also schedule classes for students.
+EduStack AI is an intelligent application designed to create personalized learning roadmaps for students based on their selected programming path (Python Full Stack, Java Full Stack, or Python with AI). This project focuses on two key features: generating dynamic learning roadmaps using a Large Language Model (LLM) and integrating relevant learning resources, specifically fetching YouTube videos.The application will also schedule classes for students.
 
 ## Implemented Features
 
 ### 1. Personalized Learning Roadmap Generation
-[cite_start]The bot generates a personalized learning roadmap based on the student's selected programming path. This roadmap includes:
-* [cite_start]Key topics to learn 
-* [cite_start]Recommended resources (tutorials, articles, videos) 
-* [cite_start]Milestones and projects 
+The bot generates a personalized learning roadmap based on the student's selected programming path. This roadmap includes:
+* Key topics to learn 
+* Recommended resources (tutorials, articles, videos) 
+* [Milestones and projects 
 
 The roadmap generation is powered by the Google Gemini 1.5 Flash Large Language Model.
 
@@ -18,7 +18,7 @@ The roadmap generation is powered by the Google Gemini 1.5 Flash Large Language 
 * **LLM:** Google Gemini 1.5 Flash
 
 ### 2. YouTube Video Integration
-[cite_start]To enrich the learning experience, the bot uses web scraping to gather the latest resources and tutorials from reputable websites, ensuring the roadmap is up-to-date. This includes fetching relevant YouTube videos as part of the recommended resources within the learning roadmap. This ensures students have access to up-to-date and engaging video content.
+To enrich the learning experience,This includes fetching relevant YouTube videos as part of the recommended resources within the learning roadmap. This ensures students have access to up-to-date and engaging video content.
 
 ## Technical Stack
 
